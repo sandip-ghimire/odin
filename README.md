@@ -2,6 +2,8 @@
 
 Odin backend and frontend restoration to show map with sar image overlay and lighthouse location/ ship location on map.
 
+![odin](https://user-images.githubusercontent.com/46402033/226178529-63302bf7-e9b1-401c-8c4f-e4732a8891ec.png)
+
 # Installation
 The project uses mapbox-gl so in order to access the map you need your access token.
 Please visit https://account.mapbox.com/ and register to creat a token.
