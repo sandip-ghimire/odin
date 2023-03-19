@@ -1,19 +1,13 @@
 import './App.css';
+import { MapView } from './components/Map';
 
-const ErrorMessage = () => {
+function App() {
   return (
-      <div className="error-message-container">
-        <h1 className="error-message">
-        ERROR 404 - ODIN NOT FOUND
-        </h1>
-      </div>
-  );
-};
-
-
-export const App = (): JSX.Element => {
-  return (
-    <ErrorMessage/>
-  );
+    <div>
+        <MapView/>
+    </div>
+  )
 }
+
+export default App;
 

@@ -18,3 +18,55 @@
   min-height: 100vh;
   width:100%;
 }
+
+.map {
+  width: 100vw;
+  height: 100vh;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.mapboxgl-ctrl-bottom-right,
+.mapboxgl-ctrl-bottom-left {
+  display: none;
+}
+
+.popup {
+  color: black;
+  font-weight: bold;
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+h1 {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  text-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.shipmarker {
+  background-image: url("/public/ship.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.lighthousemarker {
+  background-image: url("/public/lighthouse.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.location {
+  background-image: url("/public/center.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+}
