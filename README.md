@@ -33,7 +33,7 @@ uvicorn main:app --reload
 
 # Production deployment plan
 The application can be deployed in ubuntu/linux server in following ways.
-##Serving front end (odin-ui)
+## Serving front end (odin-ui)
 
 Build the project using 
 ```
@@ -45,7 +45,7 @@ apt-get install nginx
 ```
 Copy the build to the location from where the static files are served in nginx (/etc/nginx/sites-available/)
 
-##Serving backend (odin-api)
+## Serving backend (odin-api)
 Backend can be run in server using simple docker container.
 Example dockerfile:
 ```
